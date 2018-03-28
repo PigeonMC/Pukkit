@@ -1,0 +1,15 @@
+group "org.bukkit"
+version "1.0.0"
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.yaml:snakeyaml:1.7"
+    compile "com.googlecode.json-simple:json-simple:1.1"
+    compile "org.avaje:ebean:2.7.3"
+    compile "com.google.guava:guava-collections:r03"
+}

@@ -12,6 +12,9 @@
 # maven
 /target
 
+# Gradle
+.gradle/
+
 # vim
 .*.sw[a-p]
 
