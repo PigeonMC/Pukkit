@@ -1,30 +1,10 @@
-Bukkit
+Pukkit
 ======
 
-A Minecraft Server API.
+A fork of the Bukkit Minecraft Server API for Beta 1.7.3.
 
-Website: [http://bukkit.org](http://bukkit.org)  
-Bugs/Suggestions: [http://leaky.bukkit.org](http://leaky.bukkit.org)
+**Note**: Any commits made after [`935ffcb`](https://github.com/PigeonMC/Pukkit/commit/935ffcb125ff3388c445c8d6461771916e3ac93e)
+are licensed under the **MIT License**. Everything before is licensed under the **GPL 3.0 License**.
 
-Compilation
------------
+By contributing to this repository, you are licensing your changes under the **MIT License**.
 
-We use maven to handle our dependencies.
-
-* Install [Maven 3](http://maven.apache.org/download.html)
-* Check out this repo and: `mvn clean install`
-
-Coding and Pull Request Conventions
------------
-
-* We generally follow the Sun/Oracle coding standards.
-* No tabs; use 4 spaces instead.
-* No trailing whitespaces.
-* No 80 column limit or midstatement newlines.
-* No CRLF lineendigs, LF only, put your gits 'core.autocrlf' on 'true'
-* Proper javadoc for each method added/changed to describe what it does.
-* The number of commits in a pull request should be kept to a minimum (squish them into one most of the time - use common sense!).
-* No merges should be included in pull requests unless the pull request's purpose is a merge.
-* Pull requests should be tested (does it compile? AND does it work?) before submission.
-
-Follow the above conventions if you want your pull requests accepted.
